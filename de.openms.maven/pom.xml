@@ -20,6 +20,11 @@
 			<layout>p2</layout>
 			<url>${openms.update.site}</url>
 		</repository>
+		<repository>
+			<id>GNK</id>
+			<layout>p2</layout>
+			<url>https://abibuilder.informatik.uni-tuebingen.de/archive/gkn/updateSite/4.2/</url>
+		</repository>
 	</repositories>
 	<build>
 		<plugins>
@@ -146,10 +151,10 @@
   		../de.openms.knime.startupCheck
   	</module>
   	<module>
-  		../de.openms.startupCheck.test
+  		../de.openms.knime.startupCheck.test
   	</module>
   	<module>
-  		../de.openms.textexporter_reader
+  		../de.openms.knime.textexporter_reader
   	</module>
   </modules>
 </project>
