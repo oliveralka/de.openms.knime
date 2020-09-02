@@ -15,15 +15,20 @@
 		<tycho.scmUrl>scm:git:https://github.com/genericworkflownodes/de.openms.knime.git</tycho.scmUrl>
 	</properties>
 	<repositories>
-		<repository>
+		<!--  <repository>
 			<id>knime</id>
 			<layout>p2</layout>
 			<url>${openms.update.site}</url>
-		</repository>
+		</repository>-->
 		<repository>
 			<id>GNK</id>
 			<layout>p2</layout>
 			<url>https://abibuilder.informatik.uni-tuebingen.de/archive/gkn/updateSite/4.2/</url>
+		</repository>
+		<repository>
+	    	<id>p2-knime-base</id>
+			<layout>p2</layout>
+			<url>${knime.base.p2}</url>
 		</repository>
 	</repositories>
 	<build>
@@ -150,9 +155,9 @@
   	<module>
   		../de.openms.knime.startupCheck
   	</module>
-  	<module>
+  	<!--  <module>
   		../de.openms.knime.startupCheck.test
-  	</module>
+  	</module> -->
   	<module>
   		../de.openms.knime.textexporter_reader
   	</module>
