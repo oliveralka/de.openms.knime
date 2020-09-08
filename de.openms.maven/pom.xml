@@ -25,11 +25,11 @@
 			<layout>p2</layout>
 			<url>https://abibuilder.informatik.uni-tuebingen.de/archive/gkn/updateSite/4.2/</url>
 		</repository>
-		<repository>
+	<!-- 	<repository>
 	    	<id>p2-knime-base</id>
 			<layout>p2</layout>
 			<url>${knime.base.p2}</url>
-		</repository>
+		</repository> -->
 	</repositories>
 	<build>
 		<plugins>
